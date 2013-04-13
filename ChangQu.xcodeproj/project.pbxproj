@@ -42,6 +42,8 @@
 		89E12FA9171948B000DD490E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12FA8171948B000DD490E /* QuartzCore.framework */; };
 		89E12FAB171948B600DD490E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12FAA171948B600DD490E /* SystemConfiguration.framework */; };
 		89E12FAD171948CF00DD490E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12FAC171948CF00DD490E /* MobileCoreServices.framework */; };
+		DFE5979D17195E8600474E3B /* MyRecodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE5979C17195E8600474E3B /* MyRecodingViewController.m */; };
+		DFE597A11719654E00474E3B /* MyrecodingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE597A01719654E00474E3B /* MyrecodingCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +101,10 @@
 		89E12FA8171948B000DD490E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		89E12FAA171948B600DD490E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		89E12FAC171948CF00DD490E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DFE5979B17195E8600474E3B /* MyRecodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRecodingViewController.h; sourceTree = "<group>"; };
+		DFE5979C17195E8600474E3B /* MyRecodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRecodingViewController.m; sourceTree = "<group>"; };
+		DFE5979F1719654E00474E3B /* MyrecodingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyrecodingCell.h; sourceTree = "<group>"; };
+		DFE597A01719654E00474E3B /* MyrecodingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyrecodingCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,9 @@
 				89E12F0E1719461100DD490E /* MainStoryboard.storyboard */,
 				89E12F111719461100DD490E /* ViewController.h */,
 				89E12F121719461100DD490E /* ViewController.m */,
+				DFE5979B17195E8600474E3B /* MyRecodingViewController.h */,
+				DFE5979C17195E8600474E3B /* MyRecodingViewController.m */,
+				DFE5979E1719652500474E3B /* CustomCell */,
 				89E12EFD1719461100DD490E /* Supporting Files */,
 			);
 			path = ChangQu;
@@ -256,6 +265,15 @@
 			path = SDKExport;
 			sourceTree = "<group>";
 		};
+		DFE5979E1719652500474E3B /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5979F1719654E00474E3B /* MyrecodingCell.h */,
+				DFE597A01719654E00474E3B /* MyrecodingCell.m */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,6 +358,8 @@
 				89E12F991719486300DD490E /* UIImageView+AFNetworking.m in Sources */,
 				89E12F9B1719486300DD490E /* BCRequest.m in Sources */,
 				89E12F9D1719486300DD490E /* JSONKit.m in Sources */,
+				DFE5979D17195E8600474E3B /* MyRecodingViewController.m in Sources */,
+				DFE597A11719654E00474E3B /* MyrecodingCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +506,7 @@
 				89E12F181719461100DD490E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
