@@ -18,6 +18,30 @@
 		89E12F0D1719461100DD490E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E12F0C1719461100DD490E /* Default-568h@2x.png */; };
 		89E12F101719461100DD490E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E12F0E1719461100DD490E /* MainStoryboard.storyboard */; };
 		89E12F131719461100DD490E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F121719461100DD490E /* ViewController.m */; };
+		89E12F911719486300DD490E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F6E1719486300DD490E /* AFHTTPClient.m */; };
+		89E12F921719486300DD490E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F701719486300DD490E /* AFHTTPRequestOperation.m */; };
+		89E12F931719486300DD490E /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F721719486300DD490E /* AFImageRequestOperation.m */; };
+		89E12F941719486300DD490E /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F741719486300DD490E /* AFJSONRequestOperation.m */; };
+		89E12F951719486300DD490E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F761719486300DD490E /* AFNetworkActivityIndicatorManager.m */; };
+		89E12F961719486300DD490E /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F791719486300DD490E /* AFPropertyListRequestOperation.m */; };
+		89E12F971719486300DD490E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F7B1719486300DD490E /* AFURLConnectionOperation.m */; };
+		89E12F981719486300DD490E /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F7D1719486300DD490E /* AFXMLRequestOperation.m */; };
+		89E12F991719486300DD490E /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F7F1719486300DD490E /* UIImageView+AFNetworking.m */; };
+		89E12F9A1719486300DD490E /* BCPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E12F801719486300DD490E /* BCPlaceholder.png */; };
+		89E12F9B1719486300DD490E /* BCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F821719486300DD490E /* BCRequest.m */; };
+		89E12F9C1719486300DD490E /* BCStringURL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89E12F831719486300DD490E /* BCStringURL.plist */; };
+		89E12F9D1719486300DD490E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E12F851719486300DD490E /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		89E12F9E1719486300DD490E /* AGCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12F871719486300DD490E /* AGCommon.framework */; };
+		89E12F9F1719486300DD490E /* ShareSDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89E12F881719486300DD490E /* ShareSDKLocalizable.strings */; };
+		89E12FA01719486300DD490E /* QQApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12F8A1719486300DD490E /* QQApi.framework */; };
+		89E12FA11719486300DD490E /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89E12F8B1719486300DD490E /* Resource.bundle */; };
+		89E12FA21719486300DD490E /* libWeChatSDK_armv7_armv7s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12F8D1719486300DD490E /* libWeChatSDK_armv7_armv7s.a */; };
+		89E12FA31719486300DD490E /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12F901719486300DD490E /* ShareSDK.framework */; };
+		89E12FA5171948A400DD490E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12FA4171948A400DD490E /* libicucore.dylib */; };
+		89E12FA7171948AB00DD490E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12FA6171948AB00DD490E /* MessageUI.framework */; };
+		89E12FA9171948B000DD490E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12FA8171948B000DD490E /* QuartzCore.framework */; };
+		89E12FAB171948B600DD490E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12FAA171948B600DD490E /* SystemConfiguration.framework */; };
+		89E12FAD171948CF00DD490E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12FAC171948CF00DD490E /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +61,44 @@
 		89E12F0F1719461100DD490E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		89E12F111719461100DD490E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		89E12F121719461100DD490E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89E12F6D1719486300DD490E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		89E12F6E1719486300DD490E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		89E12F6F1719486300DD490E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		89E12F701719486300DD490E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		89E12F711719486300DD490E /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		89E12F721719486300DD490E /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		89E12F731719486300DD490E /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		89E12F741719486300DD490E /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		89E12F751719486300DD490E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		89E12F761719486300DD490E /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		89E12F771719486300DD490E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		89E12F781719486300DD490E /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		89E12F791719486300DD490E /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		89E12F7A1719486300DD490E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		89E12F7B1719486300DD490E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		89E12F7C1719486300DD490E /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		89E12F7D1719486300DD490E /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		89E12F7E1719486300DD490E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		89E12F7F1719486300DD490E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		89E12F801719486300DD490E /* BCPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BCPlaceholder.png; sourceTree = "<group>"; };
+		89E12F811719486300DD490E /* BCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRequest.h; sourceTree = "<group>"; };
+		89E12F821719486300DD490E /* BCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRequest.m; sourceTree = "<group>"; };
+		89E12F831719486300DD490E /* BCStringURL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BCStringURL.plist; sourceTree = "<group>"; };
+		89E12F841719486300DD490E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		89E12F851719486300DD490E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		89E12F871719486300DD490E /* AGCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGCommon.framework; sourceTree = "<group>"; };
+		89E12F891719486300DD490E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareSDKLocalizable.strings; sourceTree = "<group>"; };
+		89E12F8A1719486300DD490E /* QQApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QQApi.framework; sourceTree = "<group>"; };
+		89E12F8B1719486300DD490E /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		89E12F8D1719486300DD490E /* libWeChatSDK_armv7_armv7s.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK_armv7_armv7s.a; sourceTree = "<group>"; };
+		89E12F8E1719486300DD490E /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		89E12F8F1719486300DD490E /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		89E12F901719486300DD490E /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		89E12FA4171948A400DD490E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		89E12FA6171948AB00DD490E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		89E12FA8171948B000DD490E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		89E12FAA171948B600DD490E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		89E12FAC171948CF00DD490E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +106,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E12FAB171948B600DD490E /* SystemConfiguration.framework in Frameworks */,
+				89E12FAD171948CF00DD490E /* MobileCoreServices.framework in Frameworks */,
+				89E12FA9171948B000DD490E /* QuartzCore.framework in Frameworks */,
+				89E12FA7171948AB00DD490E /* MessageUI.framework in Frameworks */,
+				89E12FA5171948A400DD490E /* libicucore.dylib in Frameworks */,
 				89E12EF71719461100DD490E /* UIKit.framework in Frameworks */,
 				89E12EF91719461100DD490E /* Foundation.framework in Frameworks */,
 				89E12EFB1719461100DD490E /* CoreGraphics.framework in Frameworks */,
+				89E12F9E1719486300DD490E /* AGCommon.framework in Frameworks */,
+				89E12FA01719486300DD490E /* QQApi.framework in Frameworks */,
+				89E12FA21719486300DD490E /* libWeChatSDK_armv7_armv7s.a in Frameworks */,
+				89E12FA31719486300DD490E /* ShareSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +127,7 @@
 		89E12EEA1719461100DD490E = {
 			isa = PBXGroup;
 			children = (
+				89E12F6A1719486300DD490E /* ThirdLibs */,
 				89E12EFC1719461100DD490E /* ChangQu */,
 				89E12EF51719461100DD490E /* Frameworks */,
 				89E12EF41719461100DD490E /* Products */,
@@ -73,6 +145,11 @@
 		89E12EF51719461100DD490E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89E12FAC171948CF00DD490E /* MobileCoreServices.framework */,
+				89E12FAA171948B600DD490E /* SystemConfiguration.framework */,
+				89E12FA8171948B000DD490E /* QuartzCore.framework */,
+				89E12FA6171948AB00DD490E /* MessageUI.framework */,
+				89E12FA4171948A400DD490E /* libicucore.dylib */,
 				89E12EF61719461100DD490E /* UIKit.framework */,
 				89E12EF81719461100DD490E /* Foundation.framework */,
 				89E12EFA1719461100DD490E /* CoreGraphics.framework */,
@@ -105,6 +182,78 @@
 				89E12F0C1719461100DD490E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89E12F6A1719486300DD490E /* ThirdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				89E12F6B1719486300DD490E /* BCRequest */,
+				89E12F861719486300DD490E /* ShareSDK */,
+			);
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
+		89E12F6B1719486300DD490E /* BCRequest */ = {
+			isa = PBXGroup;
+			children = (
+				89E12F6C1719486300DD490E /* AFNetworking */,
+				89E12F801719486300DD490E /* BCPlaceholder.png */,
+				89E12F811719486300DD490E /* BCRequest.h */,
+				89E12F821719486300DD490E /* BCRequest.m */,
+				89E12F831719486300DD490E /* BCStringURL.plist */,
+				89E12F841719486300DD490E /* JSONKit.h */,
+				89E12F851719486300DD490E /* JSONKit.m */,
+			);
+			path = BCRequest;
+			sourceTree = "<group>";
+		};
+		89E12F6C1719486300DD490E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				89E12F6D1719486300DD490E /* AFHTTPClient.h */,
+				89E12F6E1719486300DD490E /* AFHTTPClient.m */,
+				89E12F6F1719486300DD490E /* AFHTTPRequestOperation.h */,
+				89E12F701719486300DD490E /* AFHTTPRequestOperation.m */,
+				89E12F711719486300DD490E /* AFImageRequestOperation.h */,
+				89E12F721719486300DD490E /* AFImageRequestOperation.m */,
+				89E12F731719486300DD490E /* AFJSONRequestOperation.h */,
+				89E12F741719486300DD490E /* AFJSONRequestOperation.m */,
+				89E12F751719486300DD490E /* AFNetworkActivityIndicatorManager.h */,
+				89E12F761719486300DD490E /* AFNetworkActivityIndicatorManager.m */,
+				89E12F771719486300DD490E /* AFNetworking.h */,
+				89E12F781719486300DD490E /* AFPropertyListRequestOperation.h */,
+				89E12F791719486300DD490E /* AFPropertyListRequestOperation.m */,
+				89E12F7A1719486300DD490E /* AFURLConnectionOperation.h */,
+				89E12F7B1719486300DD490E /* AFURLConnectionOperation.m */,
+				89E12F7C1719486300DD490E /* AFXMLRequestOperation.h */,
+				89E12F7D1719486300DD490E /* AFXMLRequestOperation.m */,
+				89E12F7E1719486300DD490E /* UIImageView+AFNetworking.h */,
+				89E12F7F1719486300DD490E /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		89E12F861719486300DD490E /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				89E12F871719486300DD490E /* AGCommon.framework */,
+				89E12F881719486300DD490E /* ShareSDKLocalizable.strings */,
+				89E12F8A1719486300DD490E /* QQApi.framework */,
+				89E12F8B1719486300DD490E /* Resource.bundle */,
+				89E12F8C1719486300DD490E /* SDKExport */,
+				89E12F901719486300DD490E /* ShareSDK.framework */,
+			);
+			path = ShareSDK;
+			sourceTree = "<group>";
+		};
+		89E12F8C1719486300DD490E /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				89E12F8D1719486300DD490E /* libWeChatSDK_armv7_armv7s.a */,
+				89E12F8E1719486300DD490E /* WXApi.h */,
+				89E12F8F1719486300DD490E /* WXApiObject.h */,
+			);
+			path = SDKExport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +312,10 @@
 				89E12F0B1719461100DD490E /* Default@2x.png in Resources */,
 				89E12F0D1719461100DD490E /* Default-568h@2x.png in Resources */,
 				89E12F101719461100DD490E /* MainStoryboard.storyboard in Resources */,
+				89E12F9A1719486300DD490E /* BCPlaceholder.png in Resources */,
+				89E12F9C1719486300DD490E /* BCStringURL.plist in Resources */,
+				89E12F9F1719486300DD490E /* ShareSDKLocalizable.strings in Resources */,
+				89E12FA11719486300DD490E /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +329,17 @@
 				89E12F031719461100DD490E /* main.m in Sources */,
 				89E12F071719461100DD490E /* AppDelegate.m in Sources */,
 				89E12F131719461100DD490E /* ViewController.m in Sources */,
+				89E12F911719486300DD490E /* AFHTTPClient.m in Sources */,
+				89E12F921719486300DD490E /* AFHTTPRequestOperation.m in Sources */,
+				89E12F931719486300DD490E /* AFImageRequestOperation.m in Sources */,
+				89E12F941719486300DD490E /* AFJSONRequestOperation.m in Sources */,
+				89E12F951719486300DD490E /* AFNetworkActivityIndicatorManager.m in Sources */,
+				89E12F961719486300DD490E /* AFPropertyListRequestOperation.m in Sources */,
+				89E12F971719486300DD490E /* AFURLConnectionOperation.m in Sources */,
+				89E12F981719486300DD490E /* AFXMLRequestOperation.m in Sources */,
+				89E12F991719486300DD490E /* UIImageView+AFNetworking.m in Sources */,
+				89E12F9B1719486300DD490E /* BCRequest.m in Sources */,
+				89E12F9D1719486300DD490E /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +360,14 @@
 				89E12F0F1719461100DD490E /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		89E12F881719486300DD490E /* ShareSDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E12F891719486300DD490E /* en */,
+			);
+			name = ShareSDKLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,9 +432,17 @@
 		89E12F171719461100DD490E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThirdLibs/ShareSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChangQu/ChangQu-Prefix.pch";
 				INFOPLIST_FILE = "ChangQu/ChangQu-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThirdLibs/ShareSDK/SDKExport\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -271,9 +451,17 @@
 		89E12F181719461100DD490E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThirdLibs/ShareSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChangQu/ChangQu-Prefix.pch";
 				INFOPLIST_FILE = "ChangQu/ChangQu-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThirdLibs/ShareSDK/SDKExport\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
