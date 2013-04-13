@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890A0B6B1719645100C0A840 /* BCPublic_BCTab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 890A0B6A1719645100C0A840 /* BCPublic_BCTab1.png */; };
+		890A0B7D171969D900C0A840 /* BCPublic_BCTab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 890A0B7C171969D900C0A840 /* BCPublic_BCTab2.png */; };
+		890A0B8017196B8A00C0A840 /* BCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 890A0B7F17196B8A00C0A840 /* BCTabBar.m */; };
 		89E12EF71719461100DD490E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12EF61719461100DD490E /* UIKit.framework */; };
 		89E12EF91719461100DD490E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12EF81719461100DD490E /* Foundation.framework */; };
 		89E12EFB1719461100DD490E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E12EFA1719461100DD490E /* CoreGraphics.framework */; };
@@ -47,6 +50,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		890A0B6A1719645100C0A840 /* BCPublic_BCTab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BCPublic_BCTab1.png; sourceTree = "<group>"; };
+		890A0B7C171969D900C0A840 /* BCPublic_BCTab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BCPublic_BCTab2.png; sourceTree = "<group>"; };
+		890A0B7E17196B8A00C0A840 /* BCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTabBar.h; sourceTree = "<group>"; };
+		890A0B7F17196B8A00C0A840 /* BCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTabBar.m; sourceTree = "<group>"; };
 		89E12EF31719461100DD490E /* ChangQu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangQu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E12EF61719461100DD490E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		89E12EF81719461100DD490E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -130,6 +137,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		890A0B621719601100C0A840 /* BCPublic */ = {
+			isa = PBXGroup;
+			children = (
+				890A0B66171963AC00C0A840 /* BCTabBar */,
+			);
+			path = BCPublic;
+			sourceTree = "<group>";
+		};
+		890A0B66171963AC00C0A840 /* BCTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				890A0B7C171969D900C0A840 /* BCPublic_BCTab2.png */,
+				890A0B6A1719645100C0A840 /* BCPublic_BCTab1.png */,
+				890A0B7E17196B8A00C0A840 /* BCTabBar.h */,
+				890A0B7F17196B8A00C0A840 /* BCTabBar.m */,
+			);
+			path = BCTabBar;
+			sourceTree = "<group>";
+		};
 		89E12EEA1719461100DD490E = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +192,7 @@
 		89E12EFC1719461100DD490E /* ChangQu */ = {
 			isa = PBXGroup;
 			children = (
+				890A0B621719601100C0A840 /* BCPublic */,
 				89E12F051719461100DD490E /* AppDelegate.h */,
 				89E12F061719461100DD490E /* AppDelegate.m */,
 				89E12F0E1719461100DD490E /* MainStoryboard.storyboard */,
@@ -334,6 +361,8 @@
 				89E12F9C1719486300DD490E /* BCStringURL.plist in Resources */,
 				89E12F9F1719486300DD490E /* ShareSDKLocalizable.strings in Resources */,
 				89E12FA11719486300DD490E /* Resource.bundle in Resources */,
+				890A0B6B1719645100C0A840 /* BCPublic_BCTab1.png in Resources */,
+				890A0B7D171969D900C0A840 /* BCPublic_BCTab2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,8 +387,12 @@
 				89E12F991719486300DD490E /* UIImageView+AFNetworking.m in Sources */,
 				89E12F9B1719486300DD490E /* BCRequest.m in Sources */,
 				89E12F9D1719486300DD490E /* JSONKit.m in Sources */,
+<<<<<<< HEAD
 				DFE5979D17195E8600474E3B /* MyRecodingViewController.m in Sources */,
 				DFE597A11719654E00474E3B /* MyrecodingCell.m in Sources */,
+=======
+				890A0B8017196B8A00C0A840 /* BCTabBar.m in Sources */,
+>>>>>>> n2
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

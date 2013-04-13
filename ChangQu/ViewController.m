@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BCTabBar.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   // [self.view addBCTabBar:1];
+    BCTabBar *bcTabBar = [[BCTabBar alloc] initWithItem:BCTabBarItemMyRecord];
+    [self.view addSubview:bcTabBar];
 }
 
 - (void)didReceiveMemoryWarning
